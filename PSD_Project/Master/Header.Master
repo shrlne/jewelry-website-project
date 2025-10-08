@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Header.master.cs" Inherits="PSD_Project.View.Header" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:Button ID="Btn_ToHome" runat="server" Text="Home" OnClick="Btn_ToHome_Click"/>
+            <asp:Button ID="Btn_ToLogin" runat="server" Text="Login" OnClick="Btn_ToLogin_Click"/>
+            <asp:Button ID="Btn_ToRegister" runat="server" Text="Register" OnClick="Btn_ToRegister_Click"/>
+            <asp:Button ID="Btn_ToCart" runat="server" Text="Cart" OnClick="Btn_ToCart_Click"/>
+            <asp:Button ID="Btn_ToMyOrders" runat="server" Text="My Orders" OnClick="Btn_ToMyOrders_Click"/>
+            <asp:Button ID="Btn_ToAddJewel" runat="server" Text="Add Jewel" OnClick="Btn_ToAddJewel_Click"/>
+            <asp:Button ID="Btn_ToReports" runat="server" Text="Reports" OnClick="Btn_ToReports_Click"/>
+            <asp:Button ID="Btn_ToHandleOrders" runat="server" Text="Handle Orders" OnClick="Btn_ToHandleOrders_Click"/>
+            <asp:Button ID="Btn_ToProfile" runat="server" Text="Profile" OnClick="Btn_ToProfile_Click"/>
+            <asp:Button ID="Btn_ToLogout" runat="server" Text="Logout" OnClick="Btn_ToLogout_Click"/>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

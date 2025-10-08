@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="79b72a32efe64557bde91d5ed716b4e2" Name="Diagram1">
+        <EntityTypeShape EntityType="LocalDatabaseModel.Cart" Width="1.5" PointX="6.5" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="LocalDatabaseModel.MsBrand" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="LocalDatabaseModel.MsCategory" Width="1.5" PointX="3.625" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LocalDatabaseModel.MsJewel" Width="1.5" PointX="3.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LocalDatabaseModel.MsUser" Width="1.5" PointX="6.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LocalDatabaseModel.TransactionDetail" Width="1.5" PointX="0.75" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LocalDatabaseModel.TransactionHeader" Width="1.5" PointX="3.75" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="LocalDatabaseModel.FK__Carts__JewelID__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="LocalDatabaseModel.FK__Carts__UserID__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="LocalDatabaseModel.FK__MsJewels__BrandI__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="LocalDatabaseModel.FK__MsJewels__Catego__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="LocalDatabaseModel.FK__Transacti__Jewel__440B1D61" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="LocalDatabaseModel.FK__Transacti__UserI__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="LocalDatabaseModel.FK__Transacti__Trans__4316F928" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
